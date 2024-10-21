@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    text-align: center;
+    background-color: rgba(111,148,230,255);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBook{
+    margin-inline: auto;
+    border: 1px solid rgb(49, 49, 49);
+    margin-top: 16px;
+    margin-bottom: 5px;
+    width: 650px;
+    height: 390px;
+    border-radius: 10px;
+    
+}   
+
+.addBook .boxForm {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: rgba(111,148,230,255);
+}
+
+.addBook .boxForm .containerCard {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 18px;;
+    color: rgba(111,148,230,255);
+    font-weight: bold;
+}
+
+input[type=text]{
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 38px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+input[type=number]{
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 34px;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.addBook .boxForm button{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 17px;
+    height: 38px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    background-color: rgba(111,148,230,255);
+    color: white;
+}
+.addBook .boxForm button span{
+    font-weight: bold;
+}
+
+.cariBuku {
+    margin-inline: auto;
+    border: 1px solid rgb(49, 49, 49);
+    margin-top: 16px;
+    margin-bottom: 5px;
+    width: 650px;
+    height: 130px;
+    padding-right: 5px;
+    border-radius: 10px;
+
+}
+
+.cariBuku #searchBook{
+    margin: 5px;
+    padding: 7px;
+  
+}
+
+.cariBuku #searchBook label{
+    font-weight: lighter;
+    color: rgb(83, 83, 83);
+  
+}
+
+.cariBuku #searchBook #searchBookTitle{
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 380px;
+    height: 34px;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.cariBuku #searchBook #searchSubmit{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 160px;
+    height: 34px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: rgba(111,148,230,255);
+    color: white;
+
+    
+}
+
+.belumSelesai {
+    margin-inline: auto;
+    border: 1px solid rgb(49, 49, 49);
+    margin-top: 16px;
+    margin-bottom: 5px;
+    width: 650px;
+    height: fit-content;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.belumSelesai h2 {
+    text-align: left;
+}
+
+.belumSelesai #incompleteBookList{
+    margin-inline: auto;
+    border: 1px solid rgb(49, 49, 49);
+    margin-top: 16px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 160px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.belumSelesai #incompleteBookList h3{
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px;
+
+}
+
+.belumSelesai #incompleteBookList p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 8px;
+    padding-left: 8px;
+    margin-top: 4px;
+
+}
+
+.belumSelesai #incompleteBookList button{
+    margin: 10px;
+    padding: 7px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+.belumSelesai #incompleteBookList button.completedButton{
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+}
+
+.belumSelesai #incompleteBookList button.deleteButton{
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+  }
+
+.belumSelesai #incompleteBookList button.editButton{
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border-radius: 4px;
+}
+
+.selesai {
+    margin-inline: auto;
+    border: 1px solid rgb(49, 49, 49);
+    margin-top: 16px;
+    margin-bottom: 5px;
+    width: 650px;
+    height: fit-content;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.selesai h2 {
+    text-align: left;
+}
+
+.selesai #completeBookList {
+    margin-inline: auto;
+    border: 1px solid rgb(49, 49, 49);
+    margin-top: 16px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 160px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.selesai #completeBookList h3 {
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px;
+}
+
+
+.selesai #completeBookList p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 8px;
+    padding-left: 8px;
+    margin-top: 4px;
+}
+
+.selesai #completeBookList button {
+    margin: 10px;
+    padding: 7px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.selesai #completeBookList button.completedButton{
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .selesai #completeBookList button.deleteButton{
+      cursor: pointer;
+      border: 1px solid transparent;
+      background-color: red;
+      color: white;
+      border-radius: 4px;
+    }
+  
+  .selesai #completeBookList button.editButton{
+      cursor: pointer;
+      border: 1px solid transparent;
+      background-color: rgb(255, 102, 0);
+      color: white;
+      border-radius: 4px;
+  }
+
+/* Gaya untuk kontainer buku */
+.bookItem {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Gaya untuk tombol */
+  button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .greenButton {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .redButton {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Tampilan hover pada tombol */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Tampilan card */
+  .card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .orangeButton {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  
+  
+
